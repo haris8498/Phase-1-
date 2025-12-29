@@ -1,0 +1,25 @@
+--------------------------------------------------
+ PERFORMANCE RESULTS 
+--------------------------------------------------
+
+--- Naïve Bayes (From Scratch) ---
+Accuracy:  0.9538
+Precision: 0.7810
+Recall:    0.6388
+F1-Score:  0.7027
+Confusion Matrix:
+[[17986   306]
+ [  617  1091]]
+
+--- Decision Tree (Sklearn) ---
+Accuracy:  0.9525
+Precision: 0.7144
+Recall:    0.7383
+F1-Score:  0.7262
+Confusion Matrix:
+[[17788   504]
+ [  447  1261]]
+
+==================================================
+Conclusion: Decision Tree outperformed Naïve Bayes.
+==================================================
